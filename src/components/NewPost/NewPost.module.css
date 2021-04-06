@@ -1,0 +1,30 @@
+.NewPost{
+    position: relative;
+    width: 250px;
+    height: 53px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #12B8FF;
+    box-sizing: border-box;
+    color: #00C2FF;
+    transition: 0.3s;
+}
+.NewPost:hover{
+    background-color: #12B8FF;
+    color: #fff;
+}
+
+.NewPost > p{
+    position: absolute;
+    font-size: 28px;
+    left: 20px;
+    top: -50%;
+    transform: rotateY(-50%);
+}
+
+@media (min-width: 500px){
+    .NewPost{
+        width: 40%;
+        min-width: 376px;
+    }
+}
